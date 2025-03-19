@@ -22,7 +22,7 @@ public class CadastroProdutos {
 	
 	public Set<Produto> exibirPorPreco() {
 		Set<Produto> produtoPorpreco = new TreeSet<>(new ComparatorPorPreco());
-		produtoSet.addAll(produtoSet);
+		produtoPorpreco.addAll(produtoSet);
 		return produtoPorpreco;
 	}
 	
